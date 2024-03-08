@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calc</title>
+  </head>
+  <body style="display: flex; flex-direction: column; align-items: center">
+    <div class="content">
+      <div class="numbers">
+        <input type="number" class="num1" placeholder="First number" />
+        <input type="number" class="num2" placeholder="Second number" />
+      </div>
+      <div><output class="result"></output></div>
+      <div class="sign">
+        <button class="add sign-item button"><i class="bx bx-plus"></i></button>
+        <button class="sub sign-item button">
+          <i class="bx bx-minus"></i>
+        </button>
+        <button class="multiply sign-item button">
+          <i class="bx bx-plus" style="transform: rotate(45deg)"></i>
+        </button>
+        <button class="divide sign-item button">
+          <i class="bx bx-minus" style="transform: rotate(300deg)"></i>
+        </button>
+      </div>
+    </div>
+    <script src="./javascript/index.js"></script>
+  </body>
+</html>
