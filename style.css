@@ -6,8 +6,8 @@
 }
 .content {
   margin-top: 20px;
-  width: 40%;
-  background: #aae6bb;
+  width: 400px;
+  background: #99f0b3;
   border: 2px solid rgba(13, 212, 106, 0.2);
   box-shadow: 12px 12px 2px 1px rgba(13, 212, 106, 0.2);
 }
